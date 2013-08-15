@@ -31,4 +31,4 @@ else
     echo "scons is already installed in $(which scons)"
 fi
 
-# pip install -r requirements.txt
+pip install -r requirements.txt
