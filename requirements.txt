@@ -1,0 +1,12 @@
+# note: scons needs to be installed manually
+numpy
+scipy
+biopython
+sqlalchemy
+jinja2
+colorbrewer
+-e git+ssh://git@github.com/fhcrc/seqmagick.git@master#egg=seqmagick
+-e git+ssh://git@github.com/nhoffman/csvkit.git@master#egg=csvkit
+-e git+ssh://git@github.com/nhoffman/bioscons.git@dev#egg=bioscons
+-e git+ssh://git@github.com/nhoffman/bioy.git#egg=bio
+-e ivm
