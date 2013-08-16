@@ -55,3 +55,5 @@ fi
 
 # install other requirements
 pip install -r requirements.txt
+# correct any more shebang lines
+$PYTHON src/virtualenv-${VENV_VERSION}/virtualenv.py --relocatable $venv
